@@ -1,0 +1,9 @@
+graph TD
+    A[Start] --> B{Iterate over array}
+    B --> C[Compare adjacent elements]
+    C --> D{Are elements in wrong order?}
+    D -- Yes --> E[Swap elements]
+    E --> B
+    D -- No --> F{Is end of array?}
+    F -- No --> B
+    F -- Yes --> G[End]
