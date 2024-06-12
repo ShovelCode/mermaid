@@ -1,0 +1,10 @@
+flowchart TB
+    A(Create a NumberAccessor with Array 1, 2, 3) --> B(add 4 to that array)
+    B --> C(Output: print that array)
+    C --> D(remove the element 2)
+    D --> E(Output: print that new array)
+    E --> F(Output: print sum)
+    F --> G(Output: print product)
+    G --> H(Output: print end of run)
+    H --> I(Program ends)
+     
